@@ -1,59 +1,59 @@
-<!DOCTYPE HTML>
-
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap row">
 	<div class="header">
-		<img src="Gambar/Logo Unej.png" class="logo" />
-		<p class="title">KPRI Universitas Jember</p>
+		<div class="col-1"><img src="Gambar/Logo Unej.png" class="logo"></div>
+		<div class="col-8"><p class="title">KPRI Universitas Jember</p></div>
+		<div class="col-3">
 			<ul class="login">
 				<li><a href="Register.html">Register</a></li>
-				<li class="active"><a href="Login.html">Login</a></li>
+				<li><a href="Login.html">Login</a></li>
 			</ul>
+		</div>
 	</div>
-	<div class="menu">
+	<div class="menu col-12">
 		<ul class="float">
-   			<li><a href="index.html">Home</a></li>
+   			<li class="active"><a href="index.html">Home</a></li>
     		<li><a href="Profil - Sejarah.html">Profil</a></li>
-    		<li><a href="Unit Simpan Pinjam.html">Unit Simpan Pinjam</a></li>
+    		<li><a href="Simpanan.html">Unit Simpan Pinjam</a></li>
    			<li><a href="Unit Barang.html">Unit Barang</a></li>
 		</ul>
 	</div>		
-		<div class="badanlogin">
-				<div>
-				<h2>LOGIN FORM</h2>
-				<form action="" method="">
-				  <div class="imgcontainer">
+	<div class="badanlogin col-12">
+		<div>
+			<h2>LOGIN FORM</h2>
+			<form action="" method="">
+				<div class="imgcontainer">
 				    <img src="Gambar/girl.png" alt="Person" class="girl">
-				  </div>
-				  <div class="container">
-				    <label><b>Username</b></label>
+				</div>
+				<div class="container">
+					<label><b>Username</b></label>
 				    <input type="text" placeholder="Enter Username" name="uname" class="isilogin" >
 				    <label><b>Password</b></label>
 				    <input type="password" placeholder="Enter Password" name="psw" class="isilogin">   
 				    <button type="submit">Masuk</button>
-				    <input type="checkbox" checked="checked"><span>Ingat Saya</span>
-				  </div>
-				  <div class="container" style="background-color:#f1f1f1">
-				    <button type="button" class="cancelbtn">Cancel</button>
+				    <input type="checkbox" checked="checked"><span>Ingat Saya</span><br><br>
+					<button type="button" class="cancelbtn">Cancel</button>
 				    <span class="psw">Lupa <a href="#">password?</a></span>
-				  </div>
-				</form>
-			
-			</div>
+				 </div>
+			</form>
 		</div>
-		<div class="footer">
-			<hr class="horizontal">
+	</div>
+	<div class="footer col-12">
+		<hr class="horizontal">
+		<div class="">
 			<ul class="sosmed font">
-				<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
-				<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
-				<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
-				<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
+				<li><img src="Gambar/fb.png" class="icon"><a href="">TOKO KPRI Unej</a></li>
+				<li><img src="Gambar/ig.png" class="icon"><a href="">kpri_unej</a></li>
+				<li><img src="Gambar/map.png" class="icon"><a href="">Jl. Kalimanta No.27, Jember</a></li>
+				<li style=""><img src="Gambar/telp.png" class="icon"><a href="">(03331) 033333</a></li>
 			</ul>
+		</div>
 	</div>
 </div>
 </body>

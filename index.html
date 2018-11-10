@@ -2,34 +2,37 @@
 
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap row">
 	<div class="header">
-		<img src="Gambar/Logo Unej.png" class="logo" />
-		<p class="title">KPRI Universitas Jember</p>
+		<div class="col-1"><img src="Gambar/Logo Unej.png" class="logo"></div>
+		<div class="col-8"><p class="title">KPRI Universitas Jember</p></div>
+		<div class="col-3">
 			<ul class="login">
 				<li><a href="Register.html">Register</a></li>
 				<li><a href="Login.html">Login</a></li>
 			</ul>
+		</div>
 	</div>
-	<div class="menu">
+	<div class="menu col-12">
 		<ul class="float">
-   			<li class="active"><a href="Home.html">Home</a></li>
+   			<li class="active"><a href="index.html">Home</a></li>
     		<li><a href="Profil - Sejarah.html">Profil</a></li>
     		<li><a href="Simpanan.html">Unit Simpan Pinjam</a></li>
    			<li><a href="Unit Barang.html">Unit Barang</a></li>
 		</ul>
-	</div>		
-		<div class="badan">
-			<div class="iklan">
-				<div class="borderiklan"></div>
-			</div>
-			<div class="badanisi">
-				<div class="badankiri">
-					<table class="tabelacara">
+	</div>	
+	<div class="badan col-12">
+		<div class="iklan col-12">
+			<div class="borderiklan"></div>
+		</div>
+		<div class="badanisi col-12">
+			<div class="badankiri col-6">
+				<table class="tabelacara">
 					<tr>
 						<td class="kalender">Juli 2018</td>
 						<td class="judulacara">Ayo Semarakan HUT KP-RI UNEJ Ke-39</td>
@@ -72,9 +75,9 @@
 			    		<li><a href="#">Next</a></li>
 			    		<li><a href="#">Last</a></li>
 					</ul>
-				</div>
-				<div class="badankanan">
-					<div class="border">
+			</div>
+			<div class="badankanan col-6">
+				<div class="border">
 					<img src="Gambar/Sabun.jpg" class="barang">
 					<table class="tabelbarang">
 						<tr>
@@ -107,7 +110,6 @@
 							<td>21 - 28 Oktober 2018</td>
 						</tr>
 					</table>
-
 				</div>
 				<div class="border">
 					<img src="Gambar/Sapu.jpg" class="barang">
@@ -126,22 +128,18 @@
 						</tr>
 					</table>
 				</div>
-				</div>
-				
-			</div>
-
-			
+			</div>	
 		</div>
-		<div class="footer">
-			<hr class="horizontal">
-			<ul class="sosmed font">
-				<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
-				<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
-				<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
-				<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
-			</ul>
-			
-    </div>
 	</div>
+	<div class="footer col-12">
+		<hr class="horizontal">
+		<ul class="sosmed font">
+			<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
+			<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
+			<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
+			<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
+		</ul>
+    </div>
+</div>
 </body>
 </html>

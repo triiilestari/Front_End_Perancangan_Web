@@ -47,8 +47,6 @@
 }
 
 .slide{
-	float: left;
-	width: 23%;
 	height: 100%;
 }
 .slidebarang{
@@ -59,8 +57,7 @@
 .content{
 	border-color: #008BA6;
 	float: right;
-	height: 100%;
-	width: 77%;	
+	height: 100%;	
 }
 .contentbarang{
 	border-color: #008BA6;
@@ -130,25 +127,20 @@
 }
 .profil{
 	color: #7D0521; 
-	margin-bottom: 15px;
-	margin-top: 15px;
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
 }
-
-.simple {
-    margin: 0;
-    padding: 0;
-    width: 273px;
+.simple ul{
+	margin: 0px;
 }
 
 .simple li {
     border: 3px solid #008BA6;
+    border-right: 1px;
     list-style: none;
-    padding: 7px;
     text-align: center;
-    width: 273px;
+    margin: 0;
 }
 .simple li a:hover {
     color : black;
@@ -168,7 +160,6 @@
     font-weight: bold;
 }
 .leave{
-	margin-top: 50px;
 	font-weight: bold;
 }
 .gambar{
@@ -207,10 +198,7 @@
 	width:5px; 
 	height:100%; 
 	background-color:#008BA6;
-	margin-left: 290px;
-	margin-top: 0%;
-	display: block;
-	position: absolute;
+	float: left;
 }
 .vertikalsimpanan{
 	width:5px; 
@@ -233,19 +221,18 @@
 	height: 35px;
 }
 .komentar{
-	margin-left: 20px;
+	margin : 30px;
 }
 .comment{
 	background-color: #008BA6;
 	border-color:  #008BA6;
 	color: white;
-	float: right;
-	margin-right: 23px;
 	border-style: none;
 	font-size: 18px;
 	font-family:Bookman Old Style;
-	padding: 10px 20px;
-	margin-top: 30px;
+	padding: 5px 20px;
+	float: right;
+	margin-right:70px;
 }
 .sosmed li{
     float: left;

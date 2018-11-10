@@ -1,30 +1,35 @@
 <!DOCTYPE HTML>
 
+
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap row">
 	<div class="header">
-		<img src="Gambar/Logo Unej.png" class="logo" />
-		<p class="title">KPRI Universitas Jember</p>
+		<div class="col-1"><img src="Gambar/Logo Unej.png" class="logo"></div>
+		<div class="col-8"><p class="title">KPRI Universitas Jember</p></div>
+		<div class="col-3">
 			<ul class="login">
 				<li><a href="Register.html">Register</a></li>
 				<li><a href="Login.html">Login</a></li>
 			</ul>
+		</div>
 	</div>
-	<div class="menu">
+	<div class="menu col-12">
 		<ul class="float">
    			<li><a href="index.html">Home</a></li>
     		<li><a href="Profil - Sejarah.html">Profil</a></li>
     		<li><a href="Simpanan.html">Unit Simpan Pinjam</a></li>
-   			<li class="active"><a href="Unit Barang.html">Unit Barang</a></li>
+   			<li  class="active"><a href="Unit Barang.html">Unit Barang</a></li>
 		</ul>
-	</div>		
+	</div>				
 		<div class="badan">
-			<div class="slidebarang">
+			<div class="slidebarang col-8">
+				<p class="garis_3">Unit Simpan Pinjam > Simpanan</p>
 				<div class="border">
 					<img src="Gambar/Sabun.jpg" class="barang">
 					<table class="tabelbarang">
@@ -108,71 +113,54 @@
 						</tr>
 						<tr>
 							<td>21 - 28 Oktober 2018</td>
-						</tr>
-					</table>
-
-				</div>
-				<div class="border">
-					<img src="Gambar/Sapu.jpg" class="barang">
-					<table class="tabelbarang">
-						<tr>
-							<td>SAPU 2 MACAN</td>
-						</tr>
-						<tr>
-							<td>Rp. 23.000</td>
-						</tr>
-						<tr>
-							<td style="color:red;">Diskon 10%</td>
-						</tr>
-						<tr>
-							<td>27 - 30 Oktober 2018</td>
 						</tr>
 					</table>
 
 				</div>
 			</div>
-			<div class="contentbarang">
+			<div class="contentbarang col-4">
 				<p class="kategori">KATEGORI</p>
-				<div class="borderkategori" style="float: left">
+				<div class="borderkategori col-6">
 					<img src="Gambar/Fashion.png" class="gambarkategori">
 					<p class="caption">Fashion</p>
 				</div>
-				<div class="borderkategori" style="float: right;">
+				<div class="borderkategori col-6">
 					<img src="Gambar/Baby and Mom.png" class="gambarkategori">
 					<p class="caption">Baby and Mom</p>
 				</div>
-				<div class="borderkategori" style="float: left">
+				<div class="borderkategori col-6">
 					<img src="Gambar/Cleaner.png" class="gambarkategori">
 					<p class="caption">Cleaner</p>
 				</div>
-				<div class="borderkategori" style="float: right;">
+				<div class="borderkategori col-6">
 					<img src="Gambar/chips.png" class="gambarkategori">
 					<p class="caption">Chips</p>
 				</div>
 				<p class="leave font">LEAVE A REPLY</p>
 				<div>
 					<tr ><td>Comment<br></td></tr>
-					<textarea name="comments" maxlength="1000" class="formm"></textarea><br>
+					<textarea name="comments" maxlength="1000" class="formm col-11"></textarea><br>
 					<tr><td>Name</td></tr><br>
-					<tr><td><input name = "Comment" type = "text" id = "Comment" class="formm"/></td></tr><br>
+					<tr><td><input name = "Comment" type = "text" id = "Comment" class="formm col-11"/></td></tr><br>
 					<tr><td>Email</td></tr><br>
-					<tr><td><input name = "Email" type = "Email" id ="Email" class="formm"/></td></tr><br>
+					<tr><td><input name = "Email" type = "Email" id ="Email" class="formm col-11"/></td></tr><br>
 					<tr><td>Website</td></tr><br>
-	                <tr><td><input name = "Website" type = "text" id ="text" class="formm"/></td></tr><br><br>
-					<td><input type= "submit" value = "Post Comment" class="coment" /></td>
+	                <tr><td><input name = "Website" type = "text" id ="text" class="formm col-11"/></td></tr><br><br>
+					<td><input type= "submit" value = "Post Comment" class="coment col-6" /></td>
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<hr class="horizontal">
+	<div class="footer col-12">
+		<hr class="horizontal">
+		<div class="">
 			<ul class="sosmed font">
-				<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
-				<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
-				<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
-				<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
+				<li><img src="Gambar/fb.png" class="icon"><a href="">TOKO KPRI Unej</a></li>
+				<li><img src="Gambar/ig.png" class="icon"><a href="">kpri_unej</a></li>
+				<li><img src="Gambar/map.png" class="icon"><a href="">Jl. Kalimanta No.27, Jember</a></li>
+				<li style=""><img src="Gambar/telp.png" class="icon"><a href="">(03331) 033333</a></li>
 			</ul>
-			
-    </div>
+		</div>
 	</div>
+</div>
 </body>
 </html>

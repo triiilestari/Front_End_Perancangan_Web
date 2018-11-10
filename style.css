@@ -138,6 +138,7 @@
     list-style: none;
     text-align: center;
     margin: 0;
+    padding: 8px;
 }
 .simple li:first-child{
 	border-top: 3px solid #008BA6;
@@ -147,9 +148,10 @@
 }
 .simple li a {
     color: #008BA6;
-    display: block;
+    text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
+
 }
 .simple li.active {
     background: #008BA6;
@@ -255,44 +257,47 @@
 	margin-right: -130px;
 }
 .simpanan{
+	color: #008BA6; 
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+.simpan{
 	margin-left: 30px;
 }
-#garis_1{
+.garis_1{
 	border-style:solid;
 	border-color: #008BA6;
 	border-width: 3px;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	padding-left: 5px;
-	width: 920px;
-	margin-top: -10px;
+	width: 94%;
 }
-#garis_2{
+.garis_2{
 	background-color: #008BA6;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 5px;
-	margin-top: 50px;
 	color: white;
 	font-size: 20px;
-	width: 921px;
-
+	width: 94%;
+	border : 2px solid #008BA6;
 }
 
 .table {
   font-family: Bookman Old Style;
   color: #008BA6;
-  border: #008BA6 1px solid;
-  width: 927px;
-  margin-top: -23px; 
-  margin-right: 2px;
+  border: #008BA6 2px solid;
+  width: 95%;
   border-collapse: collapse;
+  margin-top: -25px;
 }
 
 .table th {
-  padding: 10px 15px;
-  border-bottom: 1px solid #008BA6;
-
+  padding: 15px 15px;
+  border-bottom: 2px solid #008BA6;
 }
 
 .table th:first-child{  
@@ -306,9 +311,8 @@
 }
 
 .table td {
-  border-bottom: 1px solid #008BA6;
-  background: #fafafa;
-  height: 30px;
+  border-bottom: 2px solid #008BA6;
+  padding: 15px 15px;
   color: black;
 }
 

@@ -1,21 +1,25 @@
 <!DOCTYPE HTML>
 
+
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap row">
 	<div class="header">
-		<img src="Gambar/Logo Unej.png" class="logo" />
-		<p class="title">KPRI Universitas Jember</p>
+		<div class="col-1"><img src="Gambar/Logo Unej.png" class="logo"></div>
+		<div class="col-8"><p class="title">KPRI Universitas Jember</p></div>
+		<div class="col-3">
 			<ul class="login">
-				<li class="active"><a href="Register.html">Register</a></li>
+				<li  class="active"><a href="Register.html">Register</a></li>
 				<li><a href="Login.html">Login</a></li>
 			</ul>
+		</div>
 	</div>
-	<div class="menu">
+	<div class="menu col-12">
 		<ul class="float">
    			<li><a href="index.html">Home</a></li>
     		<li><a href="Profil - Sejarah.html">Profil</a></li>
@@ -23,8 +27,8 @@
    			<li><a href="Unit Barang.html">Unit Barang</a></li>
 		</ul>
 	</div>		
-		<div class="badanregis">
-			<div style="float: center;">
+		<div class="badanregis col-12">
+			<div>
 				<h2>REGISTER</h2>
 				<form>
 				  <div class="imgcontainer">
@@ -47,21 +51,23 @@
 				    <label><b>Konfirmasi Password</b></label>
 				    <input type="password" placeholder="Enter Konfirmasi Password" name="psw" class="isiregis">
 				    <p>Saya setuju dengan syarat dan ketentuan yang berlaku</p>
-				    <input type="checkbox" checked="checked"><span>Ingat Saya</span> 
+				    <input type="checkbox" checked="checked"><span>Saya setuju</span> 
 				    <button type="submit">Daftar</button>
 				  </div>
 				</form>
 			</div>
 		</div>	
-	<div class="footer">
+	<div class="footer col-12">
 		<hr class="horizontal">
+		<div class="">
 			<ul class="sosmed font">
-				<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
-				<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
-				<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
-				<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
+				<li><img src="Gambar/fb.png" class="icon"><a href="">TOKO KPRI Unej</a></li>
+				<li><img src="Gambar/ig.png" class="icon"><a href="">kpri_unej</a></li>
+				<li><img src="Gambar/map.png" class="icon"><a href="">Jl. Kalimanta No.27, Jember</a></li>
+				<li style=""><img src="Gambar/telp.png" class="icon"><a href="">(03331) 033333</a></li>
 			</ul>
-    </div>
+		</div>
+	</div>
 </div>
 </body>
 </html>

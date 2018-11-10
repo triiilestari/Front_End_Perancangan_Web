@@ -131,16 +131,16 @@
 	font-weight: bold;
 	text-align: center;
 }
-.simple ul{
-	margin: 0px;
-}
-
 .simple li {
     border: 3px solid #008BA6;
-    border-right: 1px;
+    border-right: 0px;
+    border-top: 1px solid #008BA6;
     list-style: none;
     text-align: center;
     margin: 0;
+}
+.simple li:first-child{
+	border-top: 3px solid #008BA6;
 }
 .simple li a:hover {
     color : black;
@@ -164,9 +164,10 @@
 }
 .gambar{
 	margin-top: 30px;
-	margin-left: 340px;
-   	width: 313px;
    	height: 248px;
+   	margin-left: auto;
+   	margin-right: auto;
+   	display: block;
 }
 .isiprofil{
     text-align: justify-all;

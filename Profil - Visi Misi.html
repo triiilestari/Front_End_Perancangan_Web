@@ -1,39 +1,42 @@
 <!DOCTYPE HTML>
 
+
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap row">
 	<div class="header">
-		<img src="Gambar/Logo Unej.png" class="logo" />
-		<p class="title">KPRI Universitas Jember</p>
+		<div class="col-1"><img src="Gambar/Logo Unej.png" class="logo"></div>
+		<div class="col-8"><p class="title">KPRI Universitas Jember</p></div>
+		<div class="col-3">
 			<ul class="login">
 				<li><a href="Register.html">Register</a></li>
 				<li><a href="Login.html">Login</a></li>
 			</ul>
+		</div>
 	</div>
-	<div class="menu">
+	<div class="menu col-12">
 		<ul class="float">
    			<li><a href="index.html">Home</a></li>
-    		<li class="active"><a href="Profil - Sejarah.html">Profil</a></li>
+    		<li  class="active"><a href="Profil - Sejarah.html">Profil</a></li>
     		<li><a href="Simpanan.html">Unit Simpan Pinjam</a></li>
    			<li><a href="Unit Barang.html">Unit Barang</a></li>
 		</ul>
 	</div>		
 		<div class="badan">
-			<div class="slide">
-				<div class="vertikal"></div>
+			<div class="slide col-3">
 				<p class="profil"> Profil</p>
-				<ul class="simple">
+				<div class="simple col-12">
 					<li><a href="Profil - Sejarah.html">Sejarah</a></li>
 					<li class="active"><a href="Profil - Visi Misi.html">Visi Misi</a></li>
 					<li><a href="#">Galery</a></li>
 					<li><a href="#">Agenda Kegiatan</a></li>
-				</ul>
-				<div class="komentar">
+				</div>
+				<div class="komentar col-12">
 				<p class="leave font">LEAVE A REPLY</p>
 				<div>
 					<tr ><td>Comment<br></td></tr>
@@ -48,15 +51,17 @@
 				</div>
 			</div>
             </div>
-			<div class="content">
+			<div class="content col-9">
+				<div class="vertikal"></div>
 				<img src="Gambar/Visi dan Misi.png" class="gambar" />
 				<p class="judul">Visi Misi KPRI Universitas Jember</p><br>
-                <p class="isiprofil"><b>VISI</b><br>
-				“Menjadi Koperasi Terbaik Dalam Mensejahterakan Anggota dan Bermitra 
-				Dengan Stakeholders”<br><br>
+				<div  class="isiprofil">
+                <p><b>VISI</b></p>
+				<p>“Menjadi Koperasi Terbaik Dalam Mensejahterakan Anggota dan Bermitra 
+				Dengan Stakeholders”</p>
 
 				<b>MISI</b><br>
-				Dalam rangka mewujudkan Visi tersebut, KPRI UNIVERSITAS JEMBER<br> 
+				<p>Dalam rangka mewujudkan Visi tersebut, KPRI UNIVERSITAS JEMBER<br> 
 				memiliki misi sebagai berikut :<br>
 				1.	Menyediakan Pelayanan Prima bagi anggota;<br>
 				2.	Mewujudkan Sumber Daya Manusia koperasi yang professional;<br>
@@ -64,9 +69,10 @@
 				4.	Membangun jaringan usaha dengan pihak yang berkepentingan;<br>
 				5.	Meningkatkan  social kepada anggota dan masyarakat sekitar;<br>
 				6.	Bersinergi dengan perguruan tinggi.<br><br>
+				</p>
 
 				<b>BUDAYA KP-RI UNIVERSITAS JEMBER</b><br>
-				Disadari bahwa dalam berkoperasi sisa hasil usaha (SHU) bukanlah<br> 
+				<p>Disadari bahwa dalam berkoperasi sisa hasil usaha (SHU) bukanlah<br> 
 				satu-satunya tujuan, karena masih ada tujuan lain yang lebih utama <br>
 				yaituPeningkatan Kesejahteraan dan Kepuasan pelayanan anggota. <br>
 				Tidak hanya itu kepedulian kepada masyarakat sekitar juga menjadi <br>
@@ -76,20 +82,21 @@
 				1.	Kredit dengan suku bunga  yang kompetitif<br>
 				2.	Proses Pelayanan kredit mudah & cepat<br>
 				3.	Harga barang yang kompetitif<br>
-
-</p>
+				</p>
+			</div>
 			</div>
 		</div>
-		<div class="footer">
-			<hr class="horizontal">
+		<div class="footer col-12">
+		<hr class="horizontal">
+		<div class="">
 			<ul class="sosmed font">
-				<li><img src="Gambar/fb.png" class="icon"><text class="text"> TOKO KPRI Unej</text></li>
-				<li><img src="Gambar/ig.png" class="icon"><text class="text">kpri_unej</li></text>
-				<li><img src="Gambar/map.png" class="icon"><text class="text">Jl. Kalimanta No.27, Jember</text></li>
-				<li style="margin-right: -30px;"><img src="Gambar/telp.png" class="icon"><text class="text">(03331) 033333</li>
+				<li><img src="Gambar/fb.png" class="icon"><a href="">TOKO KPRI Unej</a></li>
+				<li><img src="Gambar/ig.png" class="icon"><a href="">kpri_unej</a></li>
+				<li><img src="Gambar/map.png" class="icon"><a href="">Jl. Kalimanta No.27, Jember</a></li>
+				<li style=""><img src="Gambar/telp.png" class="icon"><a href="">(03331) 033333</a></li>
 			</ul>
-			
-    </div>
+		</div>
+	</div>
 	</div>
 </body>
 </html>

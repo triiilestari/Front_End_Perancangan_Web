@@ -4,6 +4,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"></li>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="1.js"></script>
 <head>
   <title>KPRI Universitass Jember</title>
 </head>
@@ -30,31 +31,43 @@
 		<div class="badanregis col-12">
 			<div>
 				<h2>REGISTER</h2>
-				<form>
+				<form name="register" method="post" action="Register.html">
 				  <div class="imgcontainer">
 				    <img src="Gambar/girl.png" alt="Person" class="girl">
 				  </div>
 				  <div class="container">
 				    <label><b>Nama Depan</b></label>
-				    <input type="text" placeholder="Enter Nama Depan" name="uname" class="isiregis"
+				    <input type="text" placeholder="Enter Nama Depan" name="namadepan" class="isiregis"
 				    <label><b>Nama Belakang</b></label>
-				    <input type="text" placeholder="Enter Nama Belakang" name="psw" class="isiregis">  
+				    <input type="text" placeholder="Enter Nama Belakang" name="namabelakang" class="isiregis">  
 				    <label><b>Jenis Kelamin</b></label><br>
-				    <input name = "JenisKelamin" type = "radio" value = "L"> Laki - Laki<br>
-					<input name = "JenisKelamin" type = "radio" value = "P"> Perempuan<br>
+				    <input name = "jeniskelamin" type = "radio" value = "L"> Laki - Laki<br>
+					<input name = "jeniskelamin" type = "radio" value = "P"> Perempuan<br>
 				    <label><b>Email</b></label>
-				    <input type="text" placeholder="Enter Email" name="uname" class="isiregis" >
+				    <input type="text" placeholder="Enter Email" name="email" class="isiregis" >
 				    <label><b>Username</b></label>
-				    <input type="text" placeholder="Enter Username" name="psw" class="isiregis"> 
+				    <input type="text" placeholder="Enter Username" name="username" class="isiregis"> 
 				    <label><b>Password</b></label>
-				    <input type="password" placeholder="Enter Password" name="uname" class="isiregis" >
+				    <input type="password" placeholder="Enter Password" name="password" class="isiregis" >
 				    <label><b>Konfirmasi Password</b></label>
 				    <input type="password" placeholder="Enter Konfirmasi Password" name="psw" class="isiregis">
 				    <p>Saya setuju dengan syarat dan ketentuan yang berlaku</p>
 				    <input type="checkbox" checked="checked"><span>Saya setuju</span> 
-				    <button type="submit">Daftar</button>
+				    <input type="button" onclick="terimainput()" value="Daftar" class="button">
 				  </div>
 				</form>
+				<div class="java">
+				<table border="1" id="tabelinput" width="1100px" class="table">
+				    <tr>
+				      <th>Nama Depan</th>
+				      <th>Nama Belakang</th>
+				      <th>Jenis Kelamin</th>
+				      <th>Email</th>
+				      <th>Username</th>
+				      <th>Password</th>
+				    </tr>
+				  </table>
+				 </div>
 			</div>
 		</div>	
 	<div class="footer col-12">

@@ -643,7 +643,7 @@ form {
 label{
 	color:black;
 }
-button {
+.button {
     background-color: #008BA6;
     color: white;
     padding: 14px 20px;
@@ -653,7 +653,7 @@ button {
     width: 100%;
 }
 
-button:hover {
+.button:hover {
     opacity: 0.8;
 }
 
@@ -688,16 +688,8 @@ span{
 span a{
 	color:blue;
 	text-decoration: none;
-
 }
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
+.java{
+	display: none;
 }
 

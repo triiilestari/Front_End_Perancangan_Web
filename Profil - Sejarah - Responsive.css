@@ -135,9 +135,9 @@
 	    height: 30px;
 	}
 	.comment{
-	    font-size: 15px;
+	    font-size: 14px;
 	    padding: 7px 20px;
-	    margin-right: 10px;
+	    margin-right: -2px;
 	}
 	.profil{
     	font-size: 18px;
@@ -160,10 +160,10 @@
 	    margin-right: 40px;
 	}
 	.sosmed li a{
-	    margin-left: 0px;
-	    font-size: 15px;
-	    margin-top: 5px;
-	    margin-left: 5px;
+		font-size: 15px;
+		margin-top: 0px;
+		display: block;
+		margin-left: 20px;
 	}
 	.icon{
 	    width: 17px;

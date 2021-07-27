@@ -1,0 +1,12 @@
+.wrapper{
+	width: 1400px;
+	height: 1000px;
+	margin : 100px;
+	display: block;
+	background-color: red;
+}
+.header{
+	width: 100%;
+	height: 200px;
+	
+}
